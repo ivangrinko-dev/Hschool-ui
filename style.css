@@ -1,3 +1,4 @@
+/*$color-dark-white: #FFFFFF*/
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +13,15 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header h1 {
   font: 700 60px "Mulish";
   color: #001A49;
 }
-
-nav {
+header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,12 +29,22 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.btn-start {
+header nav p:not(last-child) {
+  margin-left: 35px;
+}
+header nav p {
+  font: 700 16px "Mulish";
+  color: #001A49;
+}
+header nav p p:hover {
+  text-decoration: underline;
+}
+header nav .btn-start {
   width: 147px;
   height: 50px;
-  text-align: center;
   border-radius: 33px;
   background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
-  padding: 15px 0;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+  font: 700 16px "Mulish";
 }
