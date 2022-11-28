@@ -1,4 +1,3 @@
-/*$color-dark-white: #FFFFFF*/
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +5,14 @@
   font-style: normal;
 }
 
+body {
+  width: 1400px;
+  max-width: 120%;
+  margin: auto;
+}
+
 header {
+  width: 97%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +22,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
 }
 header h1 {
   font: 700 60px "Mulish";
@@ -36,15 +43,72 @@ header nav p {
   font: 700 16px "Mulish";
   color: #001A49;
 }
-header nav p p:hover {
+header nav p:hover {
   text-decoration: underline;
 }
-header nav .btn-start {
+header .btn-start {
   width: 147px;
   height: 50px;
   border-radius: 33px;
   background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
-  padding: 15px 0px 0px 0px;
-  text-align: center;
+  padding: 12px 15px 0px 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font: 700 16px "Mulish";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.uni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.uni .img {
+  width: 590px;
+  height: 360px;
+  background-image: url(./img/Group\ 7.svg);
+  margin-top: 283px;
+}
+.uni .zag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 160px;
+  margin-top: 247px;
+}
+.uni .zag h1 {
+  width: 590px;
+  height: 360;
+  color: #001A49;
+  font: 700 60px "Mulish";
+}
+.uni .zag p {
+  font: 400 20px "Mulish";
+  width: 560px;
+  height: 60;
+}
+.uni .btn-start-1 {
+  width: 147px;
+  height: 50px;
+  border-radius: 33px;
+  background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+  padding: 12px 15px 0px 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 700 16px "Mulish";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }

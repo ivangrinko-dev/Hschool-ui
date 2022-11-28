@@ -1,5 +1,5 @@
 $color-dark-blue: #001A49;
-/*$color-dark-white: #FFFFFF*/
+$color-dark-white: #FFFFFF;
 
 *{
     margin: 0;
@@ -7,16 +7,23 @@ $color-dark-blue: #001A49;
     font-family: "Mulish";
     font-style: normal;
 }
-
+body {
+    width: 1400px;
+    max-width: 120%;
+ 
+    margin: auto;
+}
 
 header {
+    width: 97%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+margin-top: 30px;
     h1 {
         font: 700 60px "Mulish";
          color: $color-dark-blue;
+         
     }
 
     nav {
@@ -42,12 +49,57 @@ header {
         height: 50px;
         border-radius: 33px;
         background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
-        padding: 15px 0px 0px 0px;
-        text-align: center;
+        padding: 12px 15px 0px 28px;
+         align-items: center;
         font: 700 16px "Mulish";
+        box-sizing: border-box;
     }
 }
 
+.uni {
+    display: flex;
+    justify-content: space-between;
+    
+    .img {
+        width: 590px;
+        height: 360px;
+        background-image: url(./img/Group\ 7.svg);
+        margin-top: 283px;
+    }
 
+    .zag {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 160px;
+        margin-top: 247px;
+    }
 
+.zag h1 {
+    width: 590px;
+    height: 360;
+    color: $color-dark-blue;
+    font: 700 60px "Mulish";
+         
 }
+.zag p {
+    font: 400 20px "Mulish";
+    width: 560px;
+    height: 60;
+}
+
+    .btn-start-1 {
+        width: 147px;
+        height: 50px;
+        border-radius: 33px;
+        background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+        padding: 12px 15px 0px 28px;
+         align-items: center;
+        font: 700 16px "Mulish";
+        box-sizing: border-box;
+    } 
+}
+
+
+
+
