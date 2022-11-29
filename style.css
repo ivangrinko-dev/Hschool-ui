@@ -6,13 +6,14 @@
 }
 
 body {
-  width: 1400px;
-  max-width: 120%;
+  width: 1440px;
+  height: 2558;
+  background: #F5F5F5;
   margin: auto;
 }
 
 header {
-  width: 97%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,6 +74,7 @@ header .btn-start {
   height: 360px;
   background-image: url(./img/Group\ 7.svg);
   margin-top: 283px;
+  border-radius: 20px 0px 0px 20px;
 }
 .uni .zag {
   display: -webkit-box;
@@ -111,4 +113,40 @@ header .btn-start {
   font: 700 16px "Mulish";
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 270px;
+}
+
+.img-araund {
+  width: 288px;
+  height: 288px;
+  background-image: url(./img/Side\ Shape.svg);
+}
+
+.img-araund {
+  position: relative;
+  right: 90px;
+}
+
+.tabl {
+  position: absolute;
+  margin-left: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E7EAEB;
+  width: 1120px;
+  height: 172px;
+  border: 1px solid #E7EAEB;
+  border-radius: 21px;
 }
