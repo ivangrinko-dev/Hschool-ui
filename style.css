@@ -130,12 +130,12 @@ header .btn-start {
 
 .img-araund {
   position: relative;
-  right: 90px;
+  left: 0px;
 }
 
 .tabl {
   position: absolute;
-  margin-left: 250px;
+  margin-left: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,4 +149,202 @@ header .btn-start {
   height: 172px;
   border: 1px solid #E7EAEB;
   border-radius: 21px;
+}
+
+.zag-1 {
+  margin-top: 100px;
+}
+
+.zag-1 h1 {
+  width: 637px;
+  height: 69px;
+  font: 700 46px "Mulish";
+  font-style: normal;
+  color: #001A49;
+  margin: auto;
+}
+
+.zag-1 p {
+  width: 560px;
+  height: 60px;
+  font: 400 20px "Mulish";
+  font-style: normal;
+  color: #4F596A;
+  margin: auto;
+}
+
+.tabl-1 {
+  margin-left: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E7EAEB;
+  width: 1120px;
+  height: 172px;
+  border: 1px solid #E7EAEB;
+  border-radius: 21px;
+}
+
+.img-smal {
+  width: 64px;
+  height: 64px;
+  background-image: url(./img/Group\ 8.svg);
+}
+
+.tabl-1 h1 {
+  width: 637px;
+  height: 69px;
+  font: 700 46px "Mulish";
+  font-style: normal;
+  color: #001A49;
+  margin: auto;
+}
+
+.tabl-1 p {
+  width: 900px;
+  height: 48px;
+  font: 400 16px "Mulish";
+  font-style: normal;
+  margin: auto;
+  color: #4F596A;
+}
+
+.tabl-2 {
+  margin-top: 50px;
+  margin-left: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E7EAEB;
+  width: 1120px;
+  height: 172px;
+  border: 1px solid #E7EAEB;
+  border-radius: 21px;
+}
+
+.img-smal {
+  width: 64px;
+  height: 64px;
+  background-image: url(./img/Group\ 8.svg);
+}
+
+.tabl-2 h1 {
+  width: 637px;
+  height: 69px;
+  font: 700 46px "Mulish";
+  font-style: normal;
+  color: #001A49;
+  margin: auto;
+}
+
+.tabl-2 p {
+  width: 900px;
+  height: 48px;
+  font: 400 16px "Mulish";
+  font-style: normal;
+  margin: auto;
+  color: #4F596A;
+}
+
+.tabl-3 {
+  margin-top: 50px;
+  margin-left: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E7EAEB;
+  width: 1120px;
+  height: 172px;
+  border: 1px solid #E7EAEB;
+  border-radius: 21px;
+}
+
+.img-smal {
+  width: 64px;
+  height: 64px;
+  background-image: url(./img/Group\ 8.svg);
+}
+
+.tabl-3 h1 {
+  width: 800px;
+  height: 69px;
+  font: 700 46px "Mulish";
+  font-style: normal;
+  color: #001A49;
+  margin: auto;
+}
+
+.tabl-3 p {
+  width: 900px;
+  height: 48px;
+  font: 400 16px "Mulish";
+  font-style: normal;
+  margin: auto;
+  color: #4F596A;
+}
+
+.tabl-2 p {
+  width: 900px;
+  height: 48px;
+  font: 400 16px "Mulish";
+  font-style: normal;
+  margin: auto;
+  color: #4F596A;
+}
+
+.tabl-4 {
+  margin-top: 50px;
+  margin-left: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E7EAEB;
+  width: 1120px;
+  height: 172px;
+  border: 1px solid #E7EAEB;
+  border-radius: 21px;
+}
+
+.img-smal {
+  width: 64px;
+  height: 64px;
+  background-image: url(./img/Group\ 8.svg);
+}
+
+.tabl-4 h1 {
+  width: 637px;
+  height: 69px;
+  font: 700 46px "Mulish";
+  font-style: normal;
+  color: #001A49;
+  margin: auto;
+}
+
+.tabl-4 p {
+  width: 900px;
+  height: 48px;
+  font: 400 16px "Mulish";
+  font-style: normal;
+  margin: auto;
+  color: #4F596A;
 }
