@@ -13,6 +13,7 @@ body {
 }
 
 header {
+  padding-top: 25px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,7 +24,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
 }
 header h1 {
   font: 700 60px "Mulish";
@@ -100,6 +100,7 @@ header .btn-start {
   font: 400 20px "Mulish";
   width: 560px;
   height: 60;
+  color: #4F596A;
 }
 .uni .btn-start-1 {
   width: 147px;
@@ -121,19 +122,16 @@ header .btn-start {
   display: flex;
   margin-top: 270px;
 }
-
-.img-araund {
+.tab .img-araund {
   width: 288px;
   height: 288px;
   background-image: url(./img/Side\ Shape.svg);
 }
-
-.img-araund {
+.tab .img-araund {
   position: relative;
   left: 0px;
 }
-
-.tabl {
+.tab .tabl {
   position: absolute;
   margin-left: 160px;
   display: -webkit-box;
@@ -149,6 +147,19 @@ header .btn-start {
   height: 172px;
   border: 1px solid #E7EAEB;
   border-radius: 21px;
+  text-align: center;
+}
+.tab .tabl h2 {
+  width: 150;
+  height: 60;
+  color: #001A49;
+}
+.tab .tabl p {
+  width: 190px;
+  height: 20px;
+  font: 400 16px "Mulish";
+  font-style: normal;
+  color: #4F596A;
 }
 
 .zag-1 {
@@ -174,6 +185,7 @@ header .btn-start {
 }
 
 .tabl-1 {
+  margin-top: 50px;
   margin-left: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,6 +335,7 @@ header .btn-start {
   height: 172px;
   border: 1px solid #E7EAEB;
   border-radius: 21px;
+  margin-bottom: 300px;
 }
 
 .img-smal {

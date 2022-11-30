@@ -1,5 +1,7 @@
 $color-dark-blue: #001A49;
 $color-dark-white: #FFFFFF;
+$color-dark-white-1: #E7EAEB;
+$color-dark-gray: #4F596A;
 
 * {
     margin: 0;
@@ -16,11 +18,11 @@ body {
 }
 
 header {
+    padding-top: 25px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
 
     h1 {
         font: 700 60px "Mulish";
@@ -55,6 +57,7 @@ header {
         align-items: center;
         font: 700 16px "Mulish";
         box-sizing: border-box;
+
     }
 }
 
@@ -90,6 +93,7 @@ header {
         font: 400 20px "Mulish";
         width: 560px;
         height: 60;
+        color: $color-dark-gray;
     }
 
     .btn-start-1 {
@@ -107,35 +111,54 @@ header {
 .tab {
     display: flex;
     margin-top: 270px;
-}
-
-.img-araund {
-    width: 288px;
-    height: 288px;
-    background-image: url(./img/Side\ Shape.svg);
-}
-
-.img-araund {
-    position: relative;
-    left: 0px;
-}
 
 
-.tabl {
-    position: absolute;
-    margin-left: 160px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #E7EAEB;
-    width: 1120px;
-    height: 172px;
-    border: 1px solid #E7EAEB;
-    border-radius: 21px; 
+    .img-araund {
+        width: 288px;
+        height: 288px;
+        background-image: url(./img/Side\ Shape.svg);
+    }
+
+    .img-araund {
+        position: relative;
+        left: 0px;
+
+    }
+
+
+    .tabl {
+        position: absolute;
+        margin-left: 160px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $color-dark-white-1;
+        width: 1120px;
+        height: 172px;
+        border: 1px solid $color-dark-white-1;
+        border-radius: 21px;
+        text-align: center;
+    }
+
+    .tabl h2 {
+        width: 150;
+        height: 60;
+        color: $color-dark-blue;
+
+    }
+
+    .tabl p {
+        width: 190px;
+        height: 20px;
+        font: 400 16px "Mulish";
+        font-style: normal;
+        color: $color-dark-gray;
+    }
+
 }
 
 .zag-1 {
-   margin-top: 100px;
+    margin-top: 100px;
 }
 
 .zag-1 h1 {
@@ -143,7 +166,7 @@ header {
     height: 69px;
     font: 700 46px "Mulish";
     font-style: normal;
-    color: #001A49;
+    color: $color-dark-blue;
     margin: auto;
 }
 
@@ -152,20 +175,22 @@ header {
     height: 60px;
     font: 400 20px "Mulish";
     font-style: normal;
-    color: #4F596A;
+    color: $color-dark-gray;
     margin: auto;
 }
 
+
 .tabl-1 {
+    margin-top: 50px;
     margin-left: 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #E7EAEB;
+    background-color: $color-dark-white-1;
     width: 1120px;
     height: 172px;
-    border: 1px solid #E7EAEB;
-    border-radius: 21px;   
+    border: 1px solid $color-dark-white-1;
+    border-radius: 21px;
 }
 
 .img-smal {
@@ -179,7 +204,7 @@ header {
     height: 69px;
     font: 700 46px "Mulish";
     font-style: normal;
-    color: #001A49;
+    color: $color-dark-blue;
     margin: auto;
 }
 
@@ -189,12 +214,8 @@ header {
     font: 400 16px "Mulish";
     font-style: normal;
     margin: auto;
-    color: #4F596A;
+    color: $color-dark-gray;
 }
-
-
-
-
 
 .tabl-2 {
     margin-top: 50px;
@@ -202,11 +223,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #E7EAEB;
+    background-color: $color-dark-white-1;
     width: 1120px;
     height: 172px;
-    border: 1px solid #E7EAEB;
-    border-radius: 21px;   
+    border: 1px solid $color-dark-white-1;
+    border-radius: 21px;
 }
 
 .img-smal {
@@ -220,7 +241,7 @@ header {
     height: 69px;
     font: 700 46px "Mulish";
     font-style: normal;
-    color: #001A49;
+    color: $color-dark-blue;
     margin: auto;
 }
 
@@ -230,7 +251,7 @@ header {
     font: 400 16px "Mulish";
     font-style: normal;
     margin: auto;
-    color: #4F596A;
+    color: $color-dark-gray;
 }
 
 
@@ -240,11 +261,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #E7EAEB;
+    background-color: $color-dark-white-1;
     width: 1120px;
     height: 172px;
-    border: 1px solid #E7EAEB;
-    border-radius: 21px;   
+    border: 1px solid $color-dark-white-1;
+    border-radius: 21px;
 }
 
 .img-smal {
@@ -258,7 +279,7 @@ header {
     height: 69px;
     font: 700 46px "Mulish";
     font-style: normal;
-    color: #001A49;
+    color: $color-dark-blue;
     margin: auto;
 }
 
@@ -268,12 +289,8 @@ header {
     font: 400 16px "Mulish";
     font-style: normal;
     margin: auto;
-    color: #4F596A;
+    color: $color-dark-gray;
 }
-
-
-
-
 
 .tabl-2 p {
     width: 900px;
@@ -281,7 +298,7 @@ header {
     font: 400 16px "Mulish";
     font-style: normal;
     margin: auto;
-    color: #4F596A;
+    color: $color-dark-gray;
 }
 
 
@@ -291,11 +308,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #E7EAEB;
+    background-color: $color-dark-white-1;
     width: 1120px;
     height: 172px;
-    border: 1px solid #E7EAEB;
-    border-radius: 21px;   
+    border: 1px solid $color-dark-white-1;
+    border-radius: 21px;
+    margin-bottom: 300px;
 }
 
 .img-smal {
@@ -309,7 +327,7 @@ header {
     height: 69px;
     font: 700 46px "Mulish";
     font-style: normal;
-    color: #001A49;
+    color: $color-dark-blue;
     margin: auto;
 }
 
@@ -319,5 +337,5 @@ header {
     font: 400 16px "Mulish";
     font-style: normal;
     margin: auto;
-    color: #4F596A;
+    color: $color-dark-gray;
 }
